@@ -1,0 +1,4 @@
+interface:
+  display_name: "GIGA Community Engine"
+  short_description: "Create recognizable Gigachad media across game eras"
+  default_prompt: "Use $giga-community-engine to make a PS2-era scene of Gigachad training alone in an old boxing gym."
