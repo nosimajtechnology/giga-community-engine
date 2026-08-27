@@ -1,0 +1,66 @@
+[
+  {
+    "id": "A",
+    "name": "User-selected PS2 / GTA San Andreas",
+    "prompt": "GIGA does squats with a hippo held overhead at dawn. Extreme multi-angle, real-time GTA San Andreas PS2 fidelity.",
+    "grounding": true,
+    "selection_source": "user",
+    "invariants": ["original 2004 PS2 build", "identity-only character sheet", "no remaster, mod, or enhanced capture", "identity and fidelity gate"]
+  },
+  {
+    "id": "B",
+    "name": "Agent-selected PS2 default",
+    "prompt": "GIGA trains alone at an outdoor neighborhood gym before sunrise. Make it feel like a lost game scene.",
+    "grounding": true,
+    "selection_source": "agent",
+    "invariants": ["record selected build", "ground Engine-selected era", "character sheet is not environment authority"]
+  },
+  {
+    "id": "C",
+    "name": "User-selected PS1",
+    "prompt": "GIGA pushes a broken-down car uphill in a PS1 survival game.",
+    "grounding": true,
+    "selection_source": "user",
+    "invariants": ["original fifth-generation capture", "PS1 geometry and filtering", "recognizable identity silhouette", "not voxel, modern low-poly, or PS2"]
+  },
+  {
+    "id": "D",
+    "name": "User-selected PS3",
+    "prompt": "GIGA walks through a rain-soaked industrial district in a 2008 PS3 action game.",
+    "grounding": true,
+    "selection_source": "user",
+    "invariants": ["original seventh-generation capture", "era-appropriate normal maps and grading", "no current-generation polish"]
+  },
+  {
+    "id": "E",
+    "name": "Named-game fidelity without content copying",
+    "prompt": "GIGA shadowboxes in a parking garage with Def Jam: Fight for NY PS2 fidelity.",
+    "grounding": true,
+    "selection_source": "user",
+    "invariants": ["verify original PS2 gameplay", "transfer rendering and camera only", "do not copy fighters, HUD, venues, logos, or exact moves"]
+  },
+  {
+    "id": "F",
+    "name": "No game-era trigger",
+    "prompt": "Create a clean modern studio portrait of GIGA in a black T-shirt.",
+    "grounding": false,
+    "selection_source": "user",
+    "invariants": ["photographic workflow", "do not force PS2 rendering"]
+  },
+  {
+    "id": "G",
+    "name": "Continuity across storyboard",
+    "prompt": "Create a six-shot board from the approved Test A or B frame.",
+    "grounding": true,
+    "selection_source": "inherited",
+    "invariants": ["lock rendering contract", "no sharper, denser, more cinematic, or modern panel"]
+  },
+  {
+    "id": "H",
+    "name": "Secondary-character isolation",
+    "prompt": "In a PS2 boxing game scene, GIGA coaches a standard brown pitbull boxer wearing a purple beanie.",
+    "grounding": true,
+    "selection_source": "user",
+    "invariants": ["separate identity blocks", "gameplay references control rendering only", "no identity contamination"]
+  }
+]
