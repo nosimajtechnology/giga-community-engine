@@ -4,7 +4,9 @@ Preserve identity geometry and silhouette while changing rendering technology. A
 
 ## Ground before generating
 
-When the user names a game, console, studio, or release:
+When an era-specific game build is active—whether user-selected, inherited, selected by the Engine, or supplied by a mode default—read and follow [rendering-grounding.md](rendering-grounding.md) before generation.
+
+The construction notes below are reusable baselines, not substitutes for inspected screenshots. Refine them from the requested original game/platform build. When grounding is active:
 
 1. search for authentic material from the requested version, platform, and era
 2. visually inspect representative gameplay and in-engine cutscene screenshots
@@ -12,7 +14,7 @@ When the user names a game, console, studio, or release:
 4. separate platform facts from later remasters, mods, fan renders, and promotional art
 5. translate those observations into the scene while keeping GIGA identity under the higher authority
 
-Use one or two strong visual anchors rather than a collage of loosely related references. If exact fidelity cannot be verified, call the result `inspired by`, not authentic.
+Use the smallest useful reference set with narrow roles rather than a collage of loosely related material. If exact fidelity cannot be verified, call the result `inspired by`, not authentic.
 
 ## Photographic / realistic
 

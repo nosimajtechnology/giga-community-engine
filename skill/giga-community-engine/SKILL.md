@@ -38,6 +38,7 @@ Then read:
 
 - cultural tone, token language, attribution, claims, or cross-community use: [culture-and-rights.md](references/culture-and-rights.md)
 - named console, game, realism level, meme grammar, or visual style: [transformations.md](references/transformations.md)
+- any active era-specific game build, whether chosen by the user, inherited, chosen by the Engine, or supplied by a mode default: [rendering-grounding.md](references/rendering-grounding.md)
 - any sequence, storyboard, episode, approved-frame continuation, or repair: [continuity.md](references/continuity.md)
 - routing or production stages: [modes.md](references/modes.md)
 - final animation prompt or named provider: [model-adapters.md](references/model-adapters.md)
@@ -72,7 +73,9 @@ Retain within the current project:
 - active identity reference and latest approved image
 - face, hair, beard, physique, wardrobe, and accessories
 - environment, lighting, time, props, damage, and other characters
-- style/game build, aspect ratio, and fidelity anchors
+- era-selection source, active style/game build, and whether gameplay grounding is required
+- inspected screenshot-reference set, assigned reference roles, and derived rendering contract
+- aspect ratio, fidelity anchors, and the latest identity + fidelity gate result
 - camera geography, screen direction, shot order, and unresolved action
 - approved storyboard or episode board
 - target image/video model and exact prompt limit
@@ -86,13 +89,15 @@ Use [modes.md](references/modes.md) to choose the smallest mode that fits. Honor
 
 When image generation is available and the user asks to create an image, first frame, or storyboard, generate it. Attach the canonical sheet for PS2 identity whenever practical, plus the latest approved project image for continuity. When generation is unavailable or the user requests prompt-only output, provide a complete copy-paste prompt and never imply it is a rendered image.
 
-For a named game or console aesthetic, inspect authentic screenshots or primary game material before generation. Translate observed geometry, textures, lighting, camera, animation, and UI behavior; do not rely only on model memory. Distinguish faithful grounding from loose inspiration.
+Resolve the active rendering build before generation. A user-selected, inherited, Engine-selected, or mode-default era-specific game build triggers the same workflow in [rendering-grounding.md](references/rendering-grounding.md): inspect authentic original-platform gameplay or in-engine screenshots, assign each reference a narrow role, derive a rendering contract, and keep that contract separate from GIGA identity authority. Do not rely only on model memory or treat the bundled character sheet as environment authority.
+
+Before showing a grounded generated frame, run the identity + fidelity gate in [rendering-grounding.md](references/rendering-grounding.md). Do not present a failed frame for approval or expand it into a storyboard. Apply one automatic narrow repair when the failure is isolated; if the repaired attempt still fails, report the limitation briefly and ask whether the user wants another grounded attempt.
 
 ## Handle approvals
 
 Treat `approved`, `lock it`, `perfect`, `that's it`, and clear equivalents as approval.
 
-After a first-frame approval, lock identity, wardrobe, environment, rendering, camera geography, and current action, then continue to the next stage. After storyboard approval, ask for the video model only if it has not already been named. If the user names it early, remember it.
+After a first-frame approval, lock identity, wardrobe, environment, rendering contract, screenshot-reference set, camera geography, and current action, then continue to the next stage. After storyboard approval, ask for the video model only if it has not already been named. If the user names it early, remember it.
 
 For EPISODE, each new board begins from the approved end-state of the previous board—not from the original premise. Do not produce all boards in advance unless the user explicitly requests that.
 
@@ -119,7 +124,7 @@ DO NOT CHANGE:
 [identity, state, composition, style, and other protected layers]
 ```
 
-Prioritize identity drift, face changes, physique inconsistency, extra limbs, duplicate subjects, orientation errors, and state resets before decorative issues. Regenerate only the failed shot or board when practical.
+Prioritize identity drift, face changes, physique inconsistency, extra limbs, duplicate subjects, wrong-era construction, orientation errors, and state resets before decorative issues. Regenerate only the failed shot or board when practical.
 
 ## Package animation cleanly
 

@@ -6,6 +6,8 @@ You do not need to know prompting.
 
 Tell the Engine what Gigachad is doing. It handles identity, style, camera direction, continuity, approvals, animation prompts, and narrow repairs.
 
+Game-era requests begin with authentic original-platform gameplay grounding whether you choose the era or the Engine chooses it. GIGA then follows the selected build's real geometry, textures, lighting, density, and camera language instead of placing a retro filter over modern rendering.
+
 ## What you need
 
 - **A paid ChatGPT plan with Skills available.** On a managed workspace, an admin may need to turn Skills on.

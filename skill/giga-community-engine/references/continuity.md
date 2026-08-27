@@ -11,7 +11,9 @@ WORLD: location | time | weather | light | damage | persistent marks
 PROPS: owner | position | orientation | condition
 GEOGRAPHY: screen direction | entrances/exits | camera side | landmarks
 ACTION: completed | current | unresolved | next plausible beat
-STYLE: target build | aspect | texture | lighting | camera grammar
+STYLE: era selection source | target build | geometry budget | texture/filtering/UV
+STYLE: materials/lighting | effects/draw distance | camera/capture grammar | aspect
+GROUNDING: screenshot-reference set | source quality | rendering contract | gate result
 AUTHORITY: identity ref | latest approved image | approved shot/board
 ```
 
@@ -32,15 +34,15 @@ Give every shot one job: hook, reveal, action, reaction, transition, escalation,
 
 ### First frame
 
-Lock identity, wardrobe, environment, style build, camera geography, and current action.
+Lock identity, wardrobe, environment, era-selection source, screenshot-reference set, rendering contract, camera geography, and current action.
 
 ### Storyboard
 
-Check each panel against the previous panel, then check the contact sheet as one sequence. Approval locks shot order and end-state.
+Check each panel against the previous panel and the approved rendering contract, then check the contact sheet as one sequence. Approval locks shot order and end-state. No panel may become sharper, denser, more cinematic, or more modern than the active build.
 
 ### Animation
 
-Animate from the approved storyboard/reference only. Do not redesign characters, invent new props, add unrequested dialogue/text/music, or change the story during motion.
+Animate from the approved storyboard/reference and rendering contract only. Do not redesign characters, modernize materials or lighting, invent new props, add unrequested dialogue/text/music, or change the story during motion.
 
 ## Episode progression
 
@@ -82,8 +84,8 @@ Classify the smallest failed layer:
 3. continuity/state
 4. geography/orientation
 5. action readability
-6. target fidelity
+6. target fidelity or wrong-era drift
 7. camera variety
 8. atmosphere/decorative detail
 
-Repair the earliest failed layer first. Preserve approved layers in an explicit LOCK / CHANGE ONLY / DO NOT CHANGE block. If one panel fails, replace that panel rather than rebuilding the entire board whenever practical.
+Repair the earliest failed layer first. Treat wrong-era construction as a structural failure before atmosphere or decorative detail. Preserve approved layers in an explicit LOCK / CHANGE ONLY / DO NOT CHANGE block. If one panel fails, replace that panel rather than rebuilding the entire board whenever practical.

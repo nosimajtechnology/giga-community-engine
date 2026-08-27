@@ -8,13 +8,15 @@ Build every request from:
 CANON
 + APPROVED SCENE STATE
 + MODE
-+ GROUNDED STYLE/FIDELITY
++ SCREENSHOT-DERIVED RENDERING CONTRACT WHEN ACTIVE
 + SHOT OR MOTION LOGIC
 = MODEL-NEUTRAL BRIEF
 -> PROVIDER ADAPTER
 ```
 
 Provider names must not alter canon, story, or continuity. Change only syntax, length, reference assignment, and controls verified for the selected interface.
+
+When gameplay grounding is active, the provider prompt must preserve the selected build's geometry budget, texture/filtering/UV behavior, materials and lighting, effects density, draw distance, camera grammar, and capture characteristics. Avoid generic adapter language such as `cinematic lighting`, `volumetric`, `ultra-detailed`, `photoreal materials`, bokeh, or modern depth of field unless the inspected build supports it.
 
 ## Image-generation adapter
 
@@ -84,7 +86,7 @@ When the user sets an exact character limit, measure after final edits. Preserve
 1. identity and anatomy
 2. approved state and shot progression
 3. contact points and continuity
-4. target fidelity
+4. target fidelity and screenshot-derived rendering contract
 5. motion and camera
 6. decisive negatives
 7. atmosphere
