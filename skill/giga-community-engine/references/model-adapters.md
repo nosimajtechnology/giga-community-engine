@@ -8,27 +8,38 @@ Build every request from:
 CANON
 + APPROVED SCENE STATE
 + MODE
-+ SCREENSHOT-DERIVED RENDERING CONTRACT WHEN ACTIVE
-+ SHOT OR MOTION LOGIC
++ SELECTED STYLE ADAPTER OR SCREENSHOT-DERIVED RENDERING CONTRACT
++ REFERENCE-ROLE MAP
++ MOTION PROFILE AND STATE-CHANGE DELTA WHEN ACTIVE
++ MODEL-NEUTRAL ANIMATION BRIEF
 = MODEL-NEUTRAL BRIEF
 -> PROVIDER ADAPTER
 ```
 
 Provider names must not alter canon, story, or continuity. Change only syntax, length, reference assignment, and controls verified for the selected interface.
 
-When gameplay grounding is active, the provider prompt must preserve the selected build's geometry budget, texture/filtering/UV behavior, materials and lighting, effects density, draw distance, camera grammar, and capture characteristics. Avoid generic adapter language such as `cinematic lighting`, `volumetric`, `ultra-detailed`, `photoreal materials`, bokeh, or modern depth of field unless the inspected build supports it.
+## fal.ai MiniMax H3 Max
+
+For H3 Max, I2V, T2V, R2V, Classic Control, Direct Explore, or Character Lock,
+read [fal-h3-max.md](model-adapters/fal-h3-max.md). That adapter controls route
+selection, reference order, seed optimization, prompt structure, and verified
+fal.ai fields. It may translate packaging but cannot override GIGA identity,
+approved continuity, or the selected style adapter.
+
+When gameplay grounding is active, the provider prompt must preserve the selected build's geometry budget, texture/filtering/UV behavior, materials and lighting, effects density, draw distance, camera grammar, and capture characteristics. When a registered style adapter is active, preserve its rendering lock, temporal rhythm, expression preset, and motion profile instead. Avoid generic adapter language such as `cinematic lighting`, `volumetric`, `ultra-detailed`, `photoreal materials`, bokeh, or modern depth of field unless the selected build or adapter supports it.
 
 ## Image-generation adapter
 
 Include:
 
 1. identity reference assignment
-2. subject construction and protected traits
-3. current wardrobe/action/state
-4. environment and spatial composition
-5. grounded style observations
-6. lighting, camera, and aspect ratio
-7. decisive exclusions
+2. adapter-specific character sheet assignment when active
+3. subject construction and protected traits
+4. current wardrobe/action/state
+5. environment and spatial composition
+6. selected adapter lock or grounded style observations
+7. lighting, camera, and aspect ratio
+8. decisive exclusions
 
 When reference images are supported, assign each one a role. Do not tell a model to blend all references.
 
@@ -42,14 +53,15 @@ Include:
 4. character/object motion and contact points
 5. camera movement per shot
 6. continuity locks and end-state
-7. target game-engine motion/rendering behavior
-8. negatives: no redesign, duplicates, extra limbs, unrequested text/dialogue/music, state resets
+7. selected motion profile, rhythm roles, and dominant motion channels
+8. target style or game-engine motion/rendering behavior
+9. negatives: no redesign, duplicates, extra limbs, unrequested text/dialogue/music, state resets
 
-Keep appearance descriptions concise when the approved image already carries identity. Spend prompt budget on motion, geography, and continuity.
+Keep appearance descriptions concise when the approved image already carries identity. Spend prompt budget on motion, geography, continuity, and preserving the selected style's period cadence.
 
 ## Seedance
 
-Use storyboard/reference-first packaging when the current interface supports it. Write chronological shot beats with explicit transitions and a decisive final state. Keep camera direction dynamic but readable. Do not invent exact duration, aspect, audio, or reference-slot controls; verify the current interface or label them variable.
+Use storyboard/reference-first packaging when the current interface supports it. Write chronological shot beats with explicit transitions and a decisive final state. Carry `HOLD`, `BURST`, `INSERT`, and `REVEAL` rhythm roles as creative direction rather than assuming frame-exact timing. Keep camera direction dynamic but readable. Do not invent exact duration, aspect, audio, or reference-slot controls; verify the current interface or label them variable.
 
 ## Kling
 
@@ -73,7 +85,7 @@ DURATION: user requirement or flexible
 ACTION: chronological motion beats
 CAMERA: readable motivated movement
 CONTINUITY: protected state and endpoint
-STYLE: observed era/build behavior
+STYLE: selected adapter or observed era/build behavior
 NEGATIVES: only decisive failure prevention
 ```
 

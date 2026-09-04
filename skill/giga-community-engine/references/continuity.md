@@ -11,6 +11,9 @@ WORLD: location | time | weather | light | damage | persistent marks
 PROPS: owner | position | orientation | condition
 GEOGRAPHY: screen direction | entrances/exits | camera side | landmarks
 ACTION: completed | current | unresolved | next plausible beat
+STYLE: selected style/adapter version | expression preset | motion profile
+REFERENCES: identity | style | project | motion role map
+STATE CHANGE: pre-state | change only | post-state
 STYLE: era selection source | target build | geometry budget | texture/filtering/UV
 STYLE: materials/lighting | effects/draw distance | camera/capture grammar | aspect
 GROUNDING: screenshot-reference set | source quality | rendering contract | gate result
@@ -34,15 +37,25 @@ Give every shot one job: hook, reveal, action, reaction, transition, escalation,
 
 ### First frame
 
-Lock identity, wardrobe, environment, era-selection source, screenshot-reference set, rendering contract, camera geography, and current action.
+Lock identity, selected style and adapter version, expression preset, motion
+profile, reference roles, wardrobe, environment, era-selection source,
+screenshot-reference set and rendering contract when applicable, camera
+geography, current action, and any state-change delta.
 
 ### Storyboard
 
-Check each panel against the previous panel and the approved rendering contract, then check the contact sheet as one sequence. Approval locks shot order and end-state. No panel may become sharper, denser, more cinematic, or more modern than the active build.
+Check each panel against the previous panel and the approved adapter rules or
+rendering contract, then check the contact sheet as one sequence. Approval
+locks shot order, rhythm roles, dominant motion channels, and end-state. No
+panel may become sharper, denser, more cinematic, or more modern than the
+active build or adapter. Do not add a glossier surface treatment either.
 
 ### Animation
 
-Animate from the approved storyboard/reference and rendering contract only. Do not redesign characters, modernize materials or lighting, invent new props, add unrequested dialogue/text/music, or change the story during motion.
+Animate from the approved storyboard/reference, selected adapter or rendering
+contract, motion profile, reference roles, and state-change delta only. Do not
+redesign characters, modernize materials or lighting, invent new props, add
+unrequested dialogue/text/music, or change the story during motion.
 
 ## Episode progression
 
@@ -84,7 +97,7 @@ Classify the smallest failed layer:
 3. continuity/state
 4. geography/orientation
 5. action readability
-6. target fidelity or wrong-era drift
+6. selected-style fidelity or wrong-era drift
 7. camera variety
 8. atmosphere/decorative detail
 

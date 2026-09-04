@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.0] - 2026-09-04
+
+### Added
+
+- Late-Z Battle Cel style adapter and bundled GIGA translation sheet.
+- H3 Max Classic Control (I2V), Direct Explore (T2V), and Character Lock (R2V)
+  routes with explicit reference-role ordering.
+- Seed optimization, verified fal.ai fields, model-aware staging, and
+  route-specific repair guidance.
+
+### Preserved
+
+- The classic Genesis Frame → storyboard workflow, with the approved storyboard
+  translated into the chronological H3 Max prompt rather than uploaded by default.
+
 ## [1.1.0] - 2026-08-27
 
 ### Added

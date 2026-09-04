@@ -2,6 +2,13 @@
 
 Preserve identity geometry and silhouette while changing rendering technology. A style label never authorizes face redesign.
 
+Registered visual adapters route through
+[style-adapters.md](style-adapters.md). When `late-z-battle-cel-v1` is active,
+read its adapter reference instead of treating cel anime as a loose
+transformation. This file continues to control named game generations,
+photographic work, generic low-poly work, meme grammar, and other unregistered
+transformations.
+
 ## Ground before generating
 
 When an era-specific game build is active—whether user-selected, inherited, selected by the Engine, or supplied by a mode default—read and follow [rendering-grounding.md](rendering-grounding.md) before generation.

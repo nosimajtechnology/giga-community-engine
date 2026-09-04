@@ -4,7 +4,7 @@ An easy creative tool for making recognizable Gigachad images, memes, game-world
 
 You do not need to know prompting.
 
-Tell the Engine what Gigachad is doing. It handles identity, style, camera direction, continuity, approvals, animation prompts, and narrow repairs.
+Tell the Engine what Gigachad is doing. It handles identity, registered visual styles, camera direction, continuity, approvals, animation prompts, and narrow repairs.
 
 Game-era requests begin with authentic original-platform gameplay grounding whether you choose the era or the Engine chooses it. GIGA then follows the selected build's real geometry, textures, lighting, density, and camera language instead of placing a retro filter over modern rendering.
 
@@ -12,7 +12,7 @@ Game-era requests begin with authentic original-platform gameplay grounding whet
 
 - **A paid ChatGPT plan with Skills available.** On a managed workspace, an admin may need to turn Skills on.
 - **ChatGPT image generation** for images and storyboards.
-- **A separate video tool** for rendered video. The Engine can prepare prompts for tools such as Seedance, Kling, Sora, or Higgsfield, but those products are separate from ChatGPT.
+- **A separate video tool** for rendered video. The Engine can prepare prompts for tools such as fal.ai MiniMax H3 Max, Seedance, Kling, Sora, or Higgsfield, but those products are separate from ChatGPT.
 
 ## Install in ChatGPT
 
@@ -50,6 +50,17 @@ The face drifted. Keep everything else and restore the approved face.
 - **EPISODE** — four progressive storyboards, with a fifth only when needed
 
 You can name a mode or simply describe the idea and let the Engine choose.
+
+## Late-Z and H3 Max
+
+The Engine now includes a broadcast-grounded **Late-Z Battle Cel** style with a
+dedicated GIGA translation sheet. For fal.ai MiniMax H3 Max video, it supports:
+
+- **Classic Control / I2V** — approved GPT Image 2 Genesis Frame plus storyboard
+  planning, with only the Genesis Frame uploaded as the opening image.
+- **Direct Explore / T2V** — fast text-only concept iteration with no references.
+- **Character Lock / R2V** — canonical GIGA sheet first, then the Late-Z sheet
+  as style-only authority when active.
 
 ## Canonical PS2 Character Reference
 

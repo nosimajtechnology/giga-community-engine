@@ -1,4 +1,14 @@
 interface:
-  display_name: "GIGA Community Engine"
-  short_description: "Create recognizable Gigachad media across game eras"
-  default_prompt: "Use $giga-community-engine to make a PS2-era scene of Gigachad training alone in an old boxing gym."
+  display_name: GIGA Community Engine
+  short_description: Create recognizable GIGA media in PS2 or Late-Z styles
+  default_prompt: Use $giga-community-engine to make a PS2-era scene of Gigachad training
+    alone in an old boxing gym.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
