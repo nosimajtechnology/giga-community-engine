@@ -59,14 +59,21 @@ dedicated GIGA translation sheet. For fal.ai MiniMax H3 Max video, it supports:
 - **Classic Control / I2V** — approved GPT Image 2 Genesis Frame plus storyboard
   planning, with only the Genesis Frame uploaded as the opening image.
 - **Direct Explore / T2V** — fast text-only concept iteration with no references.
-- **Character Lock / R2V** — canonical GIGA sheet first, then the Late-Z sheet
-  as style-only authority when active.
+- **Character Lock / R2V** — the approved Late-Z GIGA sheet is `Image 1` and the
+  only default reference when Late-Z is active. Other styles retain their
+  existing reference setup.
 
 ## Canonical PS2 Character Reference
 
 This turnaround is the visual authority for the Engine's PS2/sixth-generation Gigachad model. Preserve the face, hair, beard, physique, proportions, and silhouette; scenes, wardrobe, props, poses, and expressions may change.
 
 ![GIGA PS2 character reference](./skill/giga-community-engine/assets/giga-character-sheet.png)
+
+## Style reference sheets
+
+### Late-Z Battle Cel
+
+![GIGA Late-Z Battle Cel character sheet](./skill/giga-community-engine/assets/style-adapters/late-z-battle-cel/giga-late-z-character-sheet-v1.png)
 
 ## Community use
 

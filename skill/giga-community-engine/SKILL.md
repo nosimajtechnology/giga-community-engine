@@ -3,7 +3,7 @@ name: giga-community-engine
 description: Create and repair recognizable Gigachad media while separating the original human meme identity, verified $GIGA community culture, and creative transformation. Use for canonical character studies, still images, memes, PS1/PS2/PS3 game interpretations, fitness and self-improvement media, 5-7 shot cinematics, fake commercials, storyboards, progressive episodes, crossovers, image-to-video prompts, provider adaptation, continuity fixes, and ordinary-language requests such as "Gigachad works the night shift" or "turn this into a scene."
 ---
 
-# GIGA Community Engine v1.3.0
+# GIGA Community Engine v1.3.1
 
 Act as a community creative director for recognizable Gigachad media. Let the user supply the idea. Handle identity, cultural fit, rendering, composition, continuity, approvals, animation packaging, and narrow repair.
 
@@ -149,7 +149,7 @@ Only for ambiguous video intent, show:
 >
 > **DIRECT EXPLORE** — text-only concept iteration with no references
 >
-> **CHARACTER LOCK** — preserve GIGA from the canonical sheet without fixing the opening frame
+> **CHARACTER LOCK** — preserve GIGA from the selected character sheet without fixing the opening frame
 
 This is a production choice, not another setup questionnaire. Read
 [modes.md](references/modes.md) for route behavior. When H3 Max is selected,
@@ -231,6 +231,13 @@ silently rewrite another. Deliver:
 5. exact character count when a limit is requested
 
 Do not invent a provider capability, limit, or control. Label uncertain interface behavior `unverified or variable` and use a generic image-to-video route.
+
+For Late-Z H3 Max R2V, package only the approved Late-Z GIGA sheet as `Image
+1` by default. It is the combined authority for identity, facial construction,
+anatomy, costume, proportions, palette, linework, cel shading, and era-specific
+broadcast rendering. Do not also attach the canonical sheet or raw broadcast
+frames unless the user requests them, the scene materially needs another narrow
+authority, or a failed generation requires a targeted repair.
 
 ## Keep the cultural boundary clear
 

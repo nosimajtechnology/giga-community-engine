@@ -62,8 +62,9 @@ IDEA -> STYLE -> VIDEO APPROACH WHEN AMBIGUOUS -> ROUTE WORKFLOW
 Use one clear event and approximately 6-12 seconds by default. Do not inflate a
 tiny gag into a full cinematic. CLASSIC CONTROL creates and approves a Genesis
 Frame and shot plan before I2V. DIRECT EXPLORE produces a fully descriptive,
-reference-free T2V concept. CHARACTER LOCK uses the canonical sheet as primary
-R2V identity authority without fixing the opening frame.
+reference-free T2V concept. CHARACTER LOCK uses the selected character sheet as
+R2V authority without fixing the opening frame. When Late-Z is active, the
+approved Late-Z sheet is `Image 1` and the only default uploaded reference.
 
 ## CLASSIC CINEMATIC
 
@@ -91,9 +92,9 @@ clear.
 - **DIRECT EXPLORE:** optimized concept -> H3 Max T2V with no references. A
   loose seed may receive up to three distinct concepts; a clear seed gets one
   refined direction.
-- **CHARACTER LOCK:** optimized concept -> H3 Max R2V with the canonical GIGA
-  sheet first, selected style sheet second when active, and only necessary
-  role-limited additional references.
+- **CHARACTER LOCK:** optimized concept -> H3 Max R2V. When Late-Z is active,
+  use the approved Late-Z GIGA sheet as `Image 1` and the only default uploaded
+  reference; other styles retain their existing packaging.
 
 ## TRAINING / SELF-IMPROVEMENT
 

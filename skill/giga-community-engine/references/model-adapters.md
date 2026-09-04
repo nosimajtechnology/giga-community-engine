@@ -18,6 +18,12 @@ CANON
 
 Provider names must not alter canon, story, or continuity. Change only syntax, length, reference assignment, and controls verified for the selected interface.
 
+For Late-Z H3 Max R2V, the approved Late-Z GIGA sheet is `Image 1` and the only
+default uploaded reference. This route-specific consolidated sheet replaces the
+normal canonical-plus-style package. Add a narrowly assigned reference only
+when requested, materially required by the scene, or needed for a targeted
+repair; keep the Late-Z sheet first and omit unused slots.
+
 ## fal.ai MiniMax H3 Max
 
 For H3 Max, I2V, T2V, R2V, Classic Control, Direct Explore, or Character Lock,
